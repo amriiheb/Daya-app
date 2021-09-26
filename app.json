@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Daya",
+    "slug": "Daya",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["*/"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dayahistoire.api",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.443501085298-p8siot7t24jgd6oviu3ageoh77rip34v"
+        }
+      }
+    },
+    "android": {
+      "package": "com.daya.histoire",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
